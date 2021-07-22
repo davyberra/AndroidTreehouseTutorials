@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FunFactsActivity"
+    android:background="#51b46d"
+    android:padding="50dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fun_fact_text"
+        android:textColor="#83FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/fact_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Ants stretch when they wake up in the morning."
+        android:textColor="#F6F6F6"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/show_fact_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:text="Show another fun fact"
+        android:textColor="#51b46d"/>
+
+</RelativeLayout>
