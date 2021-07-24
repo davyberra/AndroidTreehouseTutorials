@@ -3,4 +3,13 @@
     <string name="ok_button">OK</string>
     <string name="error_message">There was an error. Please try again.</string>
     <string name="error_title">Oops! Sorry</string>
+    <string name="network_unavailable_message">Sorry, network is unavailable.</string>
+    <string name="temperature">100</string>
+    <string name="temp_label">At 5:00 pm it will be</string>
+    <string name="location">Chicago, IL</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="precip_label">Precipitation</string>
+    <string name="humidity">0.88</string>
+    <string name="precip">70%</string>
+    <string name="weather_summary">Cloudy with a chance of rain</string>
 </resources>
