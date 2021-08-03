@@ -21,6 +21,10 @@ public class ColorPicker {
             "#b7c0c7"  // light gray
     };
 
+    public int initializeColor() {
+        return Color.parseColor(colors[8]);
+    }
+
     public int getColor() {
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(colors.length);

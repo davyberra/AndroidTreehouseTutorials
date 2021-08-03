@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         String apiKey = "812c6fb8e8c133a983d95b7fee239608";
 
-        String forecastURL = "http://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=" + apiKey;
+        String forecastURL = "http://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&units=imperial&appid=" + apiKey;
 
         if (isNetworkAvailable()) {
             OkHttpClient client = new OkHttpClient();

@@ -22,4 +22,8 @@ public class FactBook {
         int randomNumber = randomGenerator.nextInt(facts.length);
         return facts[randomNumber];
     }
+
+    public String initializeFact() {
+        return facts[0];
+    }
 }
